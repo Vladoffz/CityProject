@@ -1,0 +1,13 @@
+C:\Users\admin\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.AssemblyInfo.cs
+C:\Users\vladg\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.csprojAssemblyReference.cache
+C:\Users\vladg\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.csproj.CoreCompileInputs.cache
+C:\Users\vladg\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.AssemblyInfoInputs.cache
+C:\Users\vladg\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.AssemblyInfo.cs
+C:\Users\admin\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Web\Web.Models\bin\Debug\netcoreapp3.1\Web.Models.deps.json
+C:\Users\admin\Desktop\Web\Web.Models\bin\Debug\netcoreapp3.1\Web.Models.dll
+C:\Users\admin\Desktop\Web\Web.Models\bin\Debug\netcoreapp3.1\Web.Models.pdb
+C:\Users\admin\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.dll
+C:\Users\admin\Desktop\Web\Web.Models\obj\Debug\netcoreapp3.1\Web.Models.pdb

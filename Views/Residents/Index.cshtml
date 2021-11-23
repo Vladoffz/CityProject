@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Web.Models.ResidentDTO>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Residents</h1>
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Search by Full Name: <input type="text" name="FullName" />
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Index">Show all</a>
+        </p>
+    </div>
+</form>
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Search by Date Of Birth: <input type="text" name="DateOfBirth" />
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Index">Show all</a>
+        </p>
+    </div>
+</form>
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Search by Number Of Apartments of a resident: <input type="text" name="NumberOfApartments" />
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Index">Show all</a>
+        </p>
+    </div>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            @*<th>@Html.DisplayNameFor(model => model.FullName)</th>*@
+            <th>Full Name</th>
+            <th>Date Of Birth</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.FullName)</td>
+                <td>@Html.DisplayFor(modelitem => item.DateOfBirth)</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Web.Models.ResidentOfFlatDTO>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Residents Of Flats</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ResidentID</th>
+            <th>FlatID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.ResidentID)</td>
+            <td>@Html.DisplayFor(modelItem => item.FlatID)</td>
+            <td>
+                <a asp-action="Create" asp-route-id="@item.ID">Create</a>  |
+                <a asp-action="Update" asp-route-id="@item.ID">Update</a>  |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Web.Models.CityDTO>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cities</h1>
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Search by Name: <input type="text" name="Name" />
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Index">Show all</a>
+        </p>
+    </div>
+</form>
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Search by Number Of Residents: <input type="text" name="NumberOfResidents" />
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Index">Show all</a>
+        </p>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+            </tr>
+        }
+    </tbody>
+</table>
